@@ -25,15 +25,7 @@ public class OrderedArrayList {
   }
 
   public String toString() {
-    String foo = "[";
-    for( int i = 0; i < _data.size(); i++ ) {
-      foo += _data.get(i) + ",";
-    }
-    if ( foo.length() > 1 )
-      //shave off trailing comma
-      foo = foo.substring( 0, foo.length()-1 );
-    foo += "]";
-    return foo;
+    return _data.toString();
   }
 
   public Integer remove( int i ) {
