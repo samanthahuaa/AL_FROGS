@@ -1,15 +1,23 @@
 Team Frogs (Ruby Friedman, Ivina Wang, Samantha Hua)
 APCS
 L02-- Well Al B. Sorted
-2021-12-12
-time spent: 4.0 hrs
+2021-12-13
+time spent: 4.5 hrs
 
 DISCO:
- *
- *
- *
+ * To stop a loop in the middle of running, make the method 
+   return a boolean and put return true where you want it to
+   end.
+ * To access a ArrayList<Integer> instead of using .length or
+   _data[i], you must use the ArrayList methods like .size() 
+   and _data.get(i), because its type ArrayList not type array. 
+ * ArrayList<Integer> allows us to specify that ArrayList will
+   only contain Integer values.
 
 QCC:
- *
- *
- *
+ * How do we know if OrderedArrayList.java is connected to/wrapper
+   class for ALTester.java
+ * How do we stop a loop from finishing running without having to
+   return a boolean?
+ * Is there a way to implement addBinary without creating two seprate
+   cases for when the ArrayList has a size of 0 or 1?
