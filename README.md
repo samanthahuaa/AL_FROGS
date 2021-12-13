@@ -9,7 +9,7 @@ sortedOrNot uses the compareTo method as a helper method to iterate through each
 
 #### OrderedArrayList
 
-* Default Constructor: initializes _data by setting it equal to a new instance of ArrayList<Integer>
+* default constructor: initializes _data by setting it equal to a new instance of ArrayList<Integer>
   
 * toString(): uses the ArrayList method to return the String value of _data
   
